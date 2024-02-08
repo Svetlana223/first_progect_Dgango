@@ -1,0 +1,5 @@
+Watching for file changes with StatReloader
+Главная страница была посещена
+"GET / HTTP/1.1" 200 218
+Страница "О себе" была посещена
+"GET /about/ HTTP/1.1" 200 208
