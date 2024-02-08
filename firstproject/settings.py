@@ -58,7 +58,7 @@ LOGGING = {
         'django': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
-        }, 'hw1_app': {
+        }, 'hw_1_app': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
@@ -77,7 +77,7 @@ INSTALLED_APPS = [
     # 'myapp',
     # 'secondapp',
     # 'diceapp',
-    'hw1_app',
+    'hw_1_app',
 ]
 
 MIDDLEWARE = [
@@ -158,3 +158,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
