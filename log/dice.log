@@ -1,0 +1,237 @@
+INFO 2024-02-07 07:08:20,259 autoreload 9684 9240 Watching for file changes with StatReloader
+WARNING 2024-02-07 07:08:23,725 log 9684 9740 Not Found: /
+WARNING 2024-02-07 07:08:23,764 basehttp 9684 9740 "GET / HTTP/1.1" 404 2576
+WARNING 2024-02-07 07:08:38,378 log 9684 4672 Not Found: /docs
+WARNING 2024-02-07 07:08:38,380 basehttp 9684 4672 "GET /docs HTTP/1.1" 404 2606
+WARNING 2024-02-07 07:08:40,880 log 9684 4672 Not Found: /dise
+WARNING 2024-02-07 07:08:40,881 basehttp 9684 4672 "GET /dise HTTP/1.1" 404 2606
+INFO 2024-02-07 07:08:50,848 basehttp 9684 3836 "GET /dice HTTP/1.1" 301 0
+INFO 2024-02-07 07:08:50,855 basehttp 9684 3948 "GET /dice/ HTTP/1.1" 200 14
+ERROR 2024-02-07 07:09:04,276 log 9684 13468 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(choise('Ξπελ', 'Πεψκΰ'))
+                        ^^^^^^
+NameError: name 'choise' is not defined. Did you mean: 'choice'?
+ERROR 2024-02-07 07:09:04,285 basehttp 9684 13468 "GET /coin/ HTTP/1.1" 500 64863
+INFO 2024-02-07 07:09:49,037 autoreload 9684 9240 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:09:50,570 autoreload 6288 2640 Watching for file changes with StatReloader
+ERROR 2024-02-07 07:09:50,894 log 6288 13512 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(choise(head, tail))
+                        ^^^^^^
+NameError: name 'choise' is not defined. Did you mean: 'choice'?
+ERROR 2024-02-07 07:09:50,902 basehttp 6288 13512 "GET /coin/ HTTP/1.1" 500 64932
+INFO 2024-02-07 07:12:17,765 autoreload 6288 2640 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:12:19,385 autoreload 8724 1448 Watching for file changes with StatReloader
+ERROR 2024-02-07 07:12:20,421 log 8724 8664 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(choise(outcomes))
+                        ^^^^^^
+NameError: name 'choise' is not defined. Did you mean: 'choice'?
+ERROR 2024-02-07 07:12:20,434 basehttp 8724 8664 "GET /coin/ HTTP/1.1" 500 65166
+INFO 2024-02-07 07:12:43,698 autoreload 8724 1448 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:12:44,995 autoreload 7624 7948 Watching for file changes with StatReloader
+ERROR 2024-02-07 07:12:47,774 log 7624 12716 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(random.choise(outcomes))
+                        ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+ERROR 2024-02-07 07:12:47,783 basehttp 7624 12716 "GET /coin/ HTTP/1.1" 500 65180
+INFO 2024-02-07 07:13:17,348 autoreload 7624 7948 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:13:18,564 autoreload 13568 5372 Watching for file changes with StatReloader
+ERROR 2024-02-07 07:13:19,848 log 13568 10284 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(random.choice(outcomes))
+                        ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+ERROR 2024-02-07 07:13:19,858 basehttp 13568 10284 "GET /coin/ HTTP/1.1" 500 65180
+ERROR 2024-02-07 07:13:22,599 log 13568 5444 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(random.choice(outcomes))
+                        ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+ERROR 2024-02-07 07:13:22,604 basehttp 13568 5444 "GET /coin/ HTTP/1.1" 500 65180
+INFO 2024-02-07 07:14:16,153 autoreload 13568 5372 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\urls.py changed, reloading.
+INFO 2024-02-07 07:14:17,397 autoreload 5820 8140 Watching for file changes with StatReloader
+INFO 2024-02-07 07:14:52,962 autoreload 11584 4304 Watching for file changes with StatReloader
+INFO 2024-02-07 07:15:07,326 autoreload 7356 9884 Watching for file changes with StatReloader
+INFO 2024-02-07 07:15:09,805 basehttp 7356 728 "GET /dice/ HTTP/1.1" 200 14
+ERROR 2024-02-07 07:15:15,426 log 7356 14016 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py", line 9, in coin
+    return HttpResponse(random.choice(outcomes))
+                        ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'
+ERROR 2024-02-07 07:15:15,434 basehttp 7356 14016 "GET /coin/ HTTP/1.1" 500 65043
+INFO 2024-02-07 07:15:59,983 autoreload 7356 9884 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:16:06,697 autoreload 7532 10036 Watching for file changes with StatReloader
+INFO 2024-02-07 07:16:13,650 basehttp 7532 13280 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-07 07:16:15,950 basehttp 7532 13280 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-07 07:16:16,542 basehttp 7532 13280 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-07 07:16:17,671 basehttp 7532 3804 "GET /coin/ HTTP/1.1" 200 8
+INFO 2024-02-07 07:16:32,136 basehttp 7532 5772 "GET /rand_hundred/ HTTP/1.1" 200 23
+INFO 2024-02-07 07:18:23,702 autoreload 7532 10036 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:18:25,388 autoreload 13512 8636 Watching for file changes with StatReloader
+INFO 2024-02-07 07:19:26,865 autoreload 13512 8636 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:19:28,298 autoreload 8532 10736 Watching for file changes with StatReloader
+INFO 2024-02-07 07:20:08,970 autoreload 8532 10736 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:20:10,598 autoreload 13836 13812 Watching for file changes with StatReloader
+INFO 2024-02-07 07:21:45,273 autoreload 13836 13812 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:21:46,917 autoreload 14232 8792 Watching for file changes with StatReloader
+INFO 2024-02-07 07:22:59,474 autoreload 14232 8792 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:23:00,752 autoreload 8196 12956 Watching for file changes with StatReloader
+INFO 2024-02-07 07:23:18,828 autoreload 8196 12956 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:23:20,402 autoreload 11232 12656 Watching for file changes with StatReloader
+INFO 2024-02-07 07:23:33,110 autoreload 11232 12656 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+INFO 2024-02-07 07:23:34,272 autoreload 11880 12500 Watching for file changes with StatReloader
+INFO 2024-02-07 07:23:39,477 basehttp 11880 8232 "GET /rand_hundred/ HTTP/1.1" 200 23
+WARNING 2024-02-07 07:23:45,055 log 11880 8232 Not Found: /docs
+WARNING 2024-02-07 07:23:45,055 basehttp 11880 8232 "GET /docs HTTP/1.1" 404 2606
+INFO 2024-02-07 07:23:46,760 basehttp 11880 8232 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-07 07:23:57,321 basehttp 11880 6496 "GET /coin/ HTTP/1.1" 200 10
+INFO 2024-02-07 07:24:56,335 autoreload 1100 6264 Watching for file changes with StatReloader
+INFO 2024-02-07 07:25:01,537 basehttp 1100 9204 "GET /coin/ HTTP/1.1" 200 10
+WARNING 2024-02-07 07:25:07,822 log 1100 9204 Not Found: /docs
+WARNING 2024-02-07 07:25:07,823 basehttp 1100 9204 "GET /docs HTTP/1.1" 404 2606
+INFO 2024-02-07 07:25:09,516 basehttp 1100 4092 "GET /dice/ HTTP/1.1" 200 14
+INFO 2024-02-07 07:25:13,792 basehttp 1100 4092 "GET /rand_hundred/ HTTP/1.1" 200 23
+INFO 2024-02-07 07:28:35,905 autoreload 1100 6264 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /rand_hundred/ HTTP/1.1" 200 23
+"GET /rand_hundred/ HTTP/1.1" 200 23
+C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+20
+"GET /rand_hundred/ HTTP/1.1" 200 23
+C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
+INFO 2024-02-07 07:30:15,893 autoreload 10024 136 Watching for file changes with StatReloader
+INFO 2024-02-07 07:30:16,759 views 10024 11040 97
+INFO 2024-02-07 07:30:16,761 basehttp 10024 11040 "GET /rand_hundred/ HTTP/1.1" 200 23
+INFO 2024-02-07 07:31:16,213 autoreload 10024 136 C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+35
+"GET /rand_hundred/ HTTP/1.1" 200 23
+['ξπελ', 'πεψκΰ']
+"GET /coin/ HTTP/1.1" 200 8
+C:\Users\User\Desktop\Ξασχενθε\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+['ΠΎΡ€ΠµΠ»', 'Ρ€ΠµΡΠΊΠ°']
+"GET /coin/ HTTP/1.1" 200 8
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+ΠΎΡ€ΠµΠ»
+"GET /coin/ HTTP/1.1" 200 8
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+The function coin was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /coin/ HTTP/1.1" 200 10
+Not Found: /docs
+"GET /docs HTTP/1.1" 404 2606
+The function dice was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /dice/ HTTP/1.1" 200 14
+The function rand_hundred was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /rand_hundred/ HTTP/1.1" 200 23
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /rand_hundred/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py", line 12, in wrapper
+    print(res.data, res.content)
+          ^^^^^^^^
+AttributeError: 'HttpResponse' object has no attribute 'data'
+"GET /rand_hundred/ HTTP/1.1" 500 65550
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+The function rand_hundred was returned <HttpResponse status_code=200, "text/html; charset=utf-8">
+"GET /rand_hundred/ HTTP/1.1" 200 23
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /rand_hundred/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py", line 12, in wrapper
+    print(res.text)
+          ^^^^^^^^
+AttributeError: 'HttpResponse' object has no attribute 'text'
+"GET /rand_hundred/ HTTP/1.1" 500 65524
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\ΠΠ±ΡƒΡ‡ΠµΠ½ΠΈΠµ\djando_lesson\firstproject\diceapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+The function rand_hundred was returned b'\xd0\x92\xd0\xb0\xd1\x88\xd0\xb5 \xd1\x87\xd0\xb8\xd1\x81\xd0\xbb\xd0\xbe: 37'
+"GET /rand_hundred/ HTTP/1.1" 200 23
+The function dice was returned b'\xd0\x92\xd1\x8b\xd0\xbf\xd0\xb0\xd0\xbb\xd0\xbe 4'
+"GET /dice/ HTTP/1.1" 200 14

@@ -1,0 +1,15 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2172
+C:\Users\User\Desktop\Обучение\djando_lesson\firstproject\firstproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Обучение\djando_lesson\firstproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Обучение\djando_lesson\firstproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Обучение\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
