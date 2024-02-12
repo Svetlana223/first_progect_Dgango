@@ -1,13 +1,5 @@
 Watching for file changes with StatReloader
 Главная страница была посещена
 "GET / HTTP/1.1" 200 218
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2444
 Страница "О себе" была посещена
 "GET /about/ HTTP/1.1" 200 208
-Главная страница была посещена
-"GET / HTTP/1.1" 200 218
-Страница "О себе" была посещена
-"GET /about/ HTTP/1.1" 200 208
-C:\Users\User\Desktop\Обучение\djando_lesson\firstproject\firstproject\settings.py changed, reloading.
-Watching for file changes with StatReloader
